@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.header {
+background-color: RoyalBlue;
+padding: 20px;
+height: 500px;
+}
+.mission{
+    width: 50%;
+}
+.believe{
+    background-color: white;
+}
+#header-text {
+    font-size: 20px; 
+    text-align: left;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: white
+}
+/*/*h3, p {background-color: white;
+color: black;
+}*/
+.do{
+    display: inline-block;
+    border: 3px solid rgba(188, 185, 185, 0.5);
+    border-radius:5px;
+    width: 150px;
+    text-align: center;
+    padding: 7px 12px;
+    cursor:pointer;
+    transition: background-color 300ms ease-in-out;
+}
+.do p{
+    padding: 0px;
+    margin: 0px;
+}
+.do a{
+    text-decoration:none;
+    color:inherit;
+}
+.do:hover{
+    background-color: rgba(255,255,255,0.3)
+}
+
